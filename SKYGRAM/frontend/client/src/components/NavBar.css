@@ -1,0 +1,74 @@
+.NavBar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    transition: width 0.3s ease-in-out; /* Add transition for width */
+    width: 250px;
+}
+
+.NavBar__logo {
+    width: 120px;
+    margin: 25px;
+    /* color: black; */
+}
+
+.NavBar__buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.NavBar__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: 0;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    padding: 15px 22px 15px 22px;
+    border-radius: 15px;
+    width: 100%;
+    transition: width 0.3s ease-in-out;
+}
+
+.NavBar__buttons:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.128);
+}
+
+.NavBar__button > span {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 10px;
+    transition: display 0.3s ease-in-out;
+}
+
+.NavBar__more {
+    position: fixed;
+    bottom: 3px;
+}
+
+.NavBar__small {
+  width: 300px; /* Adjust the width as needed */
+}
+
+.NavBar__small .NavBar__button > span {
+  display: none;
+}
+#proicon {
+    background-image: url('./sugges4.jpeg');
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.NavBar__profile {
+    display:flex;
+    margin-left: 10%
+}
+.NavBar__profile .username__info {
+    justify-content: center;
+    color: black;
+}

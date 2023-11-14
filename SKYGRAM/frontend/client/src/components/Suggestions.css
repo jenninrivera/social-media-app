@@ -1,0 +1,80 @@
+    .suggestions {
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    
+    .suggestions__title {
+        color: grey;
+        font-weight: bold;
+    }
+    
+    .username__left {
+        display: inline-flex;
+    }
+    
+    .username__info {
+        display: flex;
+        flex-direction: column;
+        margin-left: 7px;
+    }
+    
+    .relation {
+        color: grey;
+        font-size: 12px;
+    }
+    
+    .suggestions__username {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    
+    .follow__button {
+        color: #0095f6;
+        font-weight: bold;
+        background: 0;
+        border: 0;
+        margin-right: 5px;
+    }
+    
+    .follow__button:hover {
+        color: black;
+        cursor: pointer;
+    }
+    
+    .username {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    #sugges1 {
+        background-image: url('./sugges1.jpeg');
+        background-size: cover;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #sugges2 {
+        background-image: url('./sugges2.jpeg');
+        background-size: cover;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #sugges3 {
+        background-image: url('./sugges3.jpeg');
+        background-size: cover;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #sugges4 {
+        background-image: url('./sugges4.jpeg');
+        background-size: cover;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        display: inline-block;
+    }

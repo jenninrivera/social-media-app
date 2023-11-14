@@ -1,0 +1,16 @@
+.feed {
+    display: flex;
+    flex-direction: row;
+}
+
+.feed__left {
+    flex: 0.9;
+    margin-left: 30%;
+}
+
+.feed__right {
+    flex: 0.3;
+}
+
+.feed__posts {
+}
